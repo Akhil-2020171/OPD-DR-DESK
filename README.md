@@ -21,5 +21,8 @@ This is a simple web application for OPD Doctor Desk. It is a part of the Hospit
 ## Screenshots
 ![Doctor Desk](./screenshots/doctor-desk.png)
 
+## Server Repository
+- [OPD Dr Desk Server](https://github.com/Akhil-2020171/Go-Server)
+
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

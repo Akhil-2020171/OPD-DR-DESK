@@ -9,7 +9,7 @@ import {
   Button,
 } from "@nextui-org/react";
 
-export const AcmeLogo = () => {
+export const Logo = () => {
   return (
     <svg fill="none" height="36" viewBox="0 0 32 32" width="36">
       <path
@@ -26,7 +26,7 @@ export default function App() {
   return (
     <Navbar>
       <NavbarBrand>
-        <AcmeLogo />
+        <Logo />
         <p className="font-bold text-inherit">Akhil Sharma</p>
       </NavbarBrand>
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
@@ -39,12 +39,9 @@ export default function App() {
         </NavbarItem>
       </NavbarContent>
       <NavbarContent justify="end">
-        <NavbarItem className="hidden lg:flex">
-          <Link href="#">Login</Link>
-        </NavbarItem>
         <NavbarItem>
           <Button as={Link} color="primary" href="#" variant="flat">
-            Sign Up
+            Logout
           </Button>
         </NavbarItem>
       </NavbarContent>
